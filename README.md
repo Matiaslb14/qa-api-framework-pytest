@@ -82,7 +82,7 @@ qa-api-framework-pytest/
 ## ▶️ Cómo ejecutar el proyecto
 ```powershell
 # Clonar el repositorio e ingresar al proyecto
-git clone <repo-url>
+git clone https://github.com/Matiaslb14/qa-api-framework-pytest.git
 cd qa-api-framework-pytest
 
 # Crear y activar entorno virtual
@@ -113,10 +113,10 @@ python -m pytest --html=report.html --self-contained-html
 - Se prioriza **claridad, reutilización de código y mantenibilidad** por sobre complejidad innecesaria.
 - El framework está diseñado para ser **fácilmente extensible** a nuevos endpoints y features.
 
-# 📊 Reportes / Evidencia (cuando aplique)
+## 📊 Reportes / Evidencia (cuando aplique)
 - **Reporte HTML** generado automáticamente mediante **pytest-html** como evidencia de ejecución de la suite de tests.
 
-# 📈 Mejoras futuras
+## 📈 Mejoras futuras
 - Incorporar **validaciones negativas** más extensas
 - Extender el framework a **nuevas APIs**
 - Integrar ejecución automática mediante **CI/CD**
