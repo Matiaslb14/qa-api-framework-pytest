@@ -51,7 +51,7 @@ qa-api-framework-pytest/
 │ ├─ utils/
 │ │ ├─ data_loader.py
 │ │ └─ logger.py
-│ └─ init.py
+│ └─ __init__.py
 ├─ tests/
 │ ├─ conftest.py
 │ ├─ users/
@@ -60,12 +60,15 @@ qa-api-framework-pytest/
 │ ├─ posts/
 │ │ ├─ test_get_posts.py
 │ │ └─ test_create_post.py
-│ └─ contract/
-│ ├─ test_contracts.py
-│ └─ test_users_contract_data_driven.py
+│ └─ contracts/
+│   ├─ test_user_contract.py
+│   └─ test_users_contract_data_driven.py
 ├─ testdata/
 │ ├─ users.json
 │ └─ posts.json
+├─ reports/
+│ ├─ report.html
+│ └─ report.png
 ├─ pytest.ini
 ├─ requirements.txt
 ├─ .gitignore
@@ -114,6 +117,10 @@ python -m pytest --html=report.html --self-contained-html
 - El framework está diseñado para ser **fácilmente extensible** a nuevos endpoints y features.
 
 ## 📊 Reportes / Evidencia (cuando aplique)
+
+### Reporte HTML de ejecución
+
+![Reporte HTML de ejecución](reports/report.png)
 - **Reporte HTML** generado automáticamente mediante **pytest-html** como evidencia de ejecución de la suite de tests.
 
 ## 📈 Mejoras futuras

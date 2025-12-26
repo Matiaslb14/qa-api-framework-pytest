@@ -10,7 +10,6 @@ __pycache__/
 # Pytest cache & reports
 .pytest_cache/
 htmlcov/
-report.html
 
 # Environment variables
 .env
