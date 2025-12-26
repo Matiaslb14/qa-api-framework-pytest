@@ -71,6 +71,7 @@ qa-api-framework-pytest/
 │ └─ report.png
 ├─ pytest.ini
 ├─ requirements.txt
+├─ .gitattributes
 ├─ .gitignore
 └─ README.md
 ```
